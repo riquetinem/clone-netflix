@@ -1,0 +1,23 @@
+{
+  "name": "clone-netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riquetinem/clone-netflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riquetinem/clone-netflix/issues"
+  },
+  "homepage": "https://github.com/riquetinem/clone-netflix#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
